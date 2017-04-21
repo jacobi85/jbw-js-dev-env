@@ -12,7 +12,7 @@
     "localtunnel": "lt --port 3000 --subdomain jbwe",
     "share": "npm-run-all --parallel localtunnel open:src",
     "test": "mocha --reporter spec buildScripts/testSetup.js \"src/**/*.test.js\"",
-    "test:watch": "npm run test -- --watch",
+    "test:watch": "npm run test -- --watch"
   },
   "author": "Jacob Westman",
   "license": "MIT",
